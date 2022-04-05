@@ -1,0 +1,26 @@
+
+.navbar-brand{
+   font-size: 25px;
+   font-weight: bold;
+   font-family: cursive;
+}
+
+#carousel1{
+   margin-top: 3rem;
+   width: 55rem;
+   height: 22rem;
+
+}
+
+.carousel1-images{
+
+  width: 55rem;
+  height: 22rem;
+
+
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+
+}
