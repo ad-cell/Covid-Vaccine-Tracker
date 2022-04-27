@@ -7,20 +7,149 @@
 
 #carousel1{
    margin-top: 3rem;
-   width: 55rem;
-   height: 22rem;
+   width: 70%;
+   height: 22%;
 
 }
 
 .carousel1-images{
 
-  width: 55rem;
-  height: 22rem;
+  width: 70%;
+  height: 22%;
 
 
 }
 
-.carousel-control-next,
-.carousel-control-prev{
 
+.carousel-control-prev{
+  margin-left: -1rem;
+ filter: invert(100%);
+
+}
+.carousel-control-next{
+  margin-right: -1rem;
+  filter: invert(100%);
+}
+
+#about{
+  margin-top: 9rem;
+  margin-bottom: 10rem;
+}
+
+#features{
+  background-color: #F7E9D7;
+  padding: 4% 7%;
+  text-align: center;
+}
+
+.section-heading{
+
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 195%;
+ margin-top: 1%;
+
+}
+
+.features-heading6{
+  margin: 1.5rem 0;
+}
+
+#guidelines{
+  padding :4% 10% 7%;
+  text-align: center;
+}
+
+.guideborders{
+   border-style: dotted;
+   border-width: thin;
+   padding: 2.5% 0;
+}
+
+.searchtoggle-items{
+  padding-right: 20%;
+  text-align: left;
+  padding-top: 5%
+}
+
+.selectbystate{
+
+  width: 100%
+}
+
+
+
+.table-class{
+  overflow: auto;
+  height: 35rem;
+
+
+}
+
+.table-class::-webkit-scrollbar {
+        width: 15px;
+
+
+    }
+
+    /* Track */
+.table-class::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+.table-class::-webkit-scrollbar-thumb {
+        background: rgb(7, 7, 7);
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+.table-class::-webkit-scrollbar-thumb:hover {
+        background: #009eb3 ;
+    }
+
+
+
+
+
+th{
+  background-color: #EBA83A;
+
+
+}
+
+#availabilityOutput{
+  text-align: center;
+  padding: 2% 0;
+}
+
+hr{
+ border-style:none;
+ border-top-style: dotted;
+ border-width: 15px;
+ border-color: lightgrey;
+ width: 25%;
+
+}
+
+.vaccine{
+   margin: 0 0;
+   padding: 7% 7% ;
+   text-align: center;
+     background-color: #FDF6EC;
+}
+
+.info-item{
+  padding: 1% 1%;
+  margin: 0.4% 0.5%;
+ font-family: Itim, cursive;
+
+
+}
+
+footer{
+   text-align: center;
+   background-color: lightgrey;
+   padding : 1.2% 0;
 }
